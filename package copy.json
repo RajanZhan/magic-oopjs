@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "@hapi/joi": "^16.1.8",
+    "js-magic": "^1.0.0"
+  },
+  "name": "magicfactory",
+  "version": "1.0.0",
+  "main": "./src/main.js",
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-proposal-decorators": "^7.7.4",
+    "@babel/plugin-transform-runtime": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/runtime": "^7.7.4",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-loader": "^8.0.6",
+    "regenerator-runtime": "^0.13.3"
+  },
+  "scripts": {
+    "test": "babel src/test.js --out-file src/test.bin.js && node src/test.bin.js",
+    "test1": "node dist/test.js",
+    "build": "babel src -d dist",
+    "aa": "babel-node test.js "
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

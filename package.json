@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "@hapi/joi": "^16.1.8",
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-proposal-decorators": "^7.7.4",
+    "@babel/plugin-transform-runtime": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/runtime": "^7.7.4",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-loader": "^8.0.6",
+    "regenerator-runtime": "^0.13.3",
+    "js-magic": "^1.0.0"
+  },
+  "name": "magic-oopjs",
+  "version": "1.0.8",
+  "main": "./src/main.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "babel src/test.js --out-file src/test.bin.js && node src/test.bin.js",
+    "build": "babel src -d dist"
+  },
+  "author": "rajan_zhan",
+  "license": "ISC",
+  "keywords": [
+    "node",
+    "es6",
+    "oops",
+    "面向对象编程",
+    "多线程"
+  ],
+  "description": ""
+}
